@@ -1,0 +1,150 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+background-color:black ;
+display: flex;
+justify-content: center;
+position: fixed;
+width: 100%;
+height: 5em;
+z-index: 600;
+}
+
+.logo{
+  width: 12em;
+  margin: 0.5em;
+  
+}
+
+/* backgroung de la landing page */
+.bg_LandingPage img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.bg_LandingPage{
+  background-color: white;
+  opacity: 60%;
+}
+
+/* section qui englobe tout sauf le header */
+.main{
+  top: 5em;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  
+  
+} 
+
+h1{
+  font-size: 4em;
+  width: 100%;
+  text-align: center;
+  z-index: 800;
+  margin-top: 0.5em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+
+/* content contient les boutons ainsi que le h2 et le texte explicatif */
+.content{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  /* background-color: gold; */
+  margin: auto;
+
+
+}
+
+/* contenu de la partie de droite zone fond bleu */
+.aside{
+  width: 40%;
+  margin-top: -2em;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items: center; */
+}
+
+.paragraphes{
+  border: solid 4px black;
+  outline: solid 8px white;
+  width: 100%;
+  height: 80%;
+  /* background-color: deeppink; */
+  margin: auto;
+  padding: auto;
+  background: #ffffff7a;
+  /* opacity: 60%; */
+}
+
+p{
+  font-size: 0.8em;
+ /*  background-color: aqua; */
+  margin: 1.5em 2em;
+  font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* CSS des boutons */
+.buttons{
+  width: 40%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  /* background-color: #7fff00;
+ */
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color:#fff ;
+  font-size: 1.5em;
+  padding: 4px;
+  
+}
+
+.button_encyclo{
+  background: #0038a1;
+  margin-bottom: 4px;
+}
+
+.button_fight{
+  background: #ff344c ;
+  margin-top: 4px;
+}
+
+.button_encyclo, .button_fight{
+  justify-content: center;
+  outline: double 0.4em white;
+  border-radius: 45px;
+  width: 20em;
+  min-height: 55px;
+  height: 5em;
+
+}
+
