@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--  favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- liens CSS -->
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="Background.css">
+
+
+  <!-- liens fichiers JS -->
+  <script src="import.js" defer></script>
+  <script src="combat.js" defer></script>
+  <script src="encyclopedie.js" defer></script>
+  <title> Encyclopédie </title>
+</head>
+
+<body>
+  <div class="background">
+
+
+
+
+    <div class="search_service ">
+      <button class="search">rechercher</button>
+      <input type="search" id="searchInput">
+      <label for="searchInput">Quel hero souhaitez vous afficher ? </label>
+    </div>
+    <div class="hide" id="to_hide">
+
+
+      <div class="encyclo_container">
+
+
+        <div class="encyclo">
+          <h2 id="hero_name_encyclo"> </h2>
+          <img src=" " class="hero_IMG">
+          <div class="content">
+            <ul id="powerstat">
+              <li>
+                <label id="intelligence" for="intel">Intelligence</label>
+                <progress class="intel" max="100" value="0"></progress>
+                <div class="valueIntel"></div>
+              </li>
+
+              <li>
+                <label id="strength" for="force">Force</label>
+                <progress class="force" max="100" value="0"></progress>
+                <div class="valueForce"></div>
+              </li>
+
+              <li>
+                <label id="speed" for="vitesse">Vitesse</label>
+                <progress class="vitesse" max="100" value="0"></progress>
+                <div class="valueVitesse"></div>
+              </li>
+
+              <li>
+                <label id="durability" for="resistance">Résistance</label>
+                <progress class="resistance" max="100" value="0"></progress>
+                <div class="valueResistance"></div>
+              </li>
+
+              <li>
+                <label id="power" for="pouvoir">Pouvoir</label>
+                <progress class="pouvoir" max="100" value="0"></progress>
+                <div class="valuePouvoir"></div>
+              </li>
+
+              <li>
+                <label id="fight" for="combat">Combat</label>
+                <progress class="combat" max="100" value="0"></progress>
+                <div class="valueCombat"></div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
