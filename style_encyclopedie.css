@@ -1,0 +1,20 @@
+.card,.card2 {
+    position: absolute;
+    z-index: 100;
+    background-color: #fefefeb4;
+    height : 75% ;
+    width : 30%;
+    border : solid 0.8em white ;
+    outline: solid 2px black;
+    border-radius: 15px;
+    top : 5em;
+    text-align: center ;
+    left:auto;
+    -webkit-box-shadow: 14px 13px 6px 1px rgba(84,84,84,0.66); 
+    box-shadow: 14px 13px 6px 1px rgba(84,84,84,0.66);
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
